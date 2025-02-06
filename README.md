@@ -12,10 +12,19 @@ The algorithm can be run as, e.g.,
 
 ./[exeNAME] Instn80d50s2  Instn80d50s2.weights 2 0 120
 
-The parameters are: 
-i)   instance name 
-ii)  name of the edge-weights file 
-iii) 0 or 1 for compact MIP models for the EWMCP - 2 for the edge-weight splitting bound - 3 for the LP-based bound 
-iv)  1 for solving the VWMCP via a commercial solver - 0 to use the maximal stable set approach outlined in  
-v)   time limit
+The parameters are:
 
+i - Instance name  
+
+ii - Name of the edge-weights file  
+
+iii - Model type (integer value):  
+    - `0` or `1` for compact ILP models for the EWMCP  
+    - `2` for the edge-weight splitting bound  
+    - `3` for the LP-based bound  
+
+iv - VWMCP solution approach (integer value):  
+   - `1` for solving the ILP model via a commercial solver  
+   - `0` for using the maximal stable set approach outlined in the paper  
+
+v - Time limit  
