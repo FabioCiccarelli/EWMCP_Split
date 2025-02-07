@@ -18,13 +18,4 @@ i - Instance name
 
 ii - Name of the edge-weights file  
 
-iii - Model type (integer value):  
-    - `0` or `1` for compact ILP models for the EWMCP  
-    - `2` for the tightest edge-weight splitting bound  
-    - `3` for the LP-based bound  
-
-iv - VWMCP solution approach (integer value):  
-   - `1` for solving the ILP model via a commercial solver  
-   - `0` for using the maximal stable set approach outlined in the paper  
-
-v - Time limit  
+iii - Time limit  
