@@ -3,7 +3,7 @@ Algorithm to compute upper and lower bounds to the optimal solution value of the
 
 This repository contains accompanying material to the paper:
 
-Edge-weight splitting upper bounds for the edge-weighted maximum clique problem
+"Edge-weight splitting upper bounds for the edge-weighted maximum clique problem"
 by Fabio Ciccarelli, Valerio Dose, Fabio Furini and Marta Monaci. 
 
 To compile and run the code CPLEX libraries are required.
@@ -20,7 +20,7 @@ ii - Name of the edge-weights file
 
 iii - Model type (integer value):  
     - `0` or `1` for compact ILP models for the EWMCP  
-    - `2` for the edge-weight splitting bound  
+    - `2` for the tightest edge-weight splitting bound  
     - `3` for the LP-based bound  
 
 iv - VWMCP solution approach (integer value):  
