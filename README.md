@@ -10,7 +10,7 @@ To compile and run the code CPLEX libraries are required.
 
 The algorithm can be run as, e.g.,
 
-./[exeNAME] Instn80d50s2  Instn80d50s2.weights 2 0 120
+./[exeNAME] Instn80d50s2  Instn80d50s2.weights 120
 
 The parameters are:
 
