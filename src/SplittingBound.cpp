@@ -258,7 +258,7 @@ int computeLowerBound(instance *inst)
 
 			if(e == -1)
 			{
-				cout << "Error in computing the Half LB" << endl;
+				cout << "Error in computing the LB" << endl;
 				exit(-1);
 			}
 			else
